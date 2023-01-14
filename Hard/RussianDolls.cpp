@@ -14,7 +14,6 @@ public:
                 arr.push_back(e[1]);
                 continue;
             }
-            //cout << "Bitchass stop this shit";
             auto up = lower_bound(arr.begin(), arr.end(), e[1]);
             if(up == arr.end())
                 arr.push_back(e[1]);
